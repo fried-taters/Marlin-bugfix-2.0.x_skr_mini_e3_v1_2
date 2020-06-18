@@ -1,0 +1,24 @@
+Send: G29
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: echo:busy: processing
+[...]
+Recv: Error:Probing Failed
+Changing monitoring state from "Operational" to "Error: Probing Failed"
+Send: M112
+Send: N2 M112*35
+Send: N3 M104 T0 S0*34
+Send: N4 M140 S0*97
+Changing monitoring state from "Error: Probing Failed" to "Offline (Error: Probing Failed)"
+Connection closed, closing down monitor
