@@ -12,7 +12,7 @@ I've used [this guide](https://www.reddit.com/r/ender3/comments/e894j7/marlin_20
 * I've used this [PID autotuning guide](https://www.reddit.com/r/3Dprinting/comments/h8xqrn/pid_autotune/) created by /u/qwewer1/. Updated the PID values in Configuration.h
 * [Calibrating Z-Offset With A BLTouch Bed Levelling Probe - 3DMN](https://www.youtube.com/watch?v=y_1Kg45APko&t=79s)
 * [Bed Leveling Files](https://www.chepclub.com/bed-level.html) used to test z-offset parameters
-* * modified original and renamed to CHEP_bed_level_test_PETG
-* * * Added G29 and M500 commands to level bed before testing
-* * * Changed bed and extruder temperature for PETG
+  * modified original and renamed to CHEP_bed_level_test_PETG
+    * Added G29 and M500 commands to level bed before testing
+    * Changed bed and extruder temperature for PETG
   
